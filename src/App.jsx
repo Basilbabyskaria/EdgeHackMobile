@@ -1,13 +1,13 @@
-import './App.css'
+import "./App.css";
 
 function App() {
   function openTabs() {
-  for (let i = 0; i < 2; i++) {
-    setTimeout(() => {
-      window.open(`https://www.bing.com/search?q=${i}`);
-    }, i * 3000);
+    for (let i = 0; i < 21; i++) {
+      setTimeout(() => {
+        window.open(`https://www.bing.com/search?q=${i}`);
+      }, i * 3000);
+    }
   }
-}
   return (
     <>
       <h1>Edge Hack</h1>
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
