@@ -9,6 +9,7 @@ function App() {
         );
       }, i * 6000);
     }
+    
   }
   return (
     <>
