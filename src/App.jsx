@@ -5,7 +5,7 @@ function App() {
     for (let i = 0; i < 21; i++) {
       setTimeout(() => {
         window.open(`https://www.bing.com/search?q=${i}`);
-      }, i * 3000);
+      }, i * 6000);
     }
   }
   return (
