@@ -9,7 +9,6 @@ function App() {
         );
       }, i * 7000);
     }
-
   }
   function openTabs2() {
     for (let i = 10; i < 31; i++) {
