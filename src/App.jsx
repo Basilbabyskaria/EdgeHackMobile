@@ -37,6 +37,7 @@ function App() {
       }, (i - 10) * 7000);
     }
   }
+
   function openTabs2() {
     window.open("https://rewards.bing.com/?signin=1&FORM=ANNRW1", "_blank");
     if (window.location.href.match("https://www.bing.com/")) {
@@ -62,6 +63,7 @@ function App() {
       }, (i - 10) * 28572);
     }
   }
+
   return (
     <>
       <h1>Edge Hack</h1>
@@ -82,7 +84,9 @@ function App() {
         <button onClick={openTabs}>Speed</button>
       </div>
       <div className="card">
+
         <button onClick={openTabs2}>Slow</button>
+
       </div>
     </>
   );
