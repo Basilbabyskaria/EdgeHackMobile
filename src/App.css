@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+.input{
+  list-style-type: none;
+  display: flex;
+}
+.input li{
+  display: inline;
+  margin-right: 5px;
+}
+.inputfield{
+  width: 15px;
+  height: 15px;
+}
